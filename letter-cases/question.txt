@@ -1,0 +1,20 @@
+We are given a string S consisting of N letters. We want to find the alphabetically largest letter that
+occurs in both lowercase and uppercase in S, or decide that there is no such letter.
+
+Note: One letter is alphabetically larger than another if it occurs later in English alphabetical order.
+For example, "E" is alphabetically larger than "B".
+
+Write a function:
+ that given a string S, returns a string consisting of one letter - the alphabetically largest of all letters
+ that occur in both lowercase and uppercase in S. The returned letter should be in uppercase.
+
+ If there is no such letter, the function should return "NO".
+
+Examples:
+1. Given S = "aaBabcDaA, your function should return "B".
+2. Given S = "Codility", your function should return "NO".
+3. Given S = "WeTestCodErs", your function should return "T".
+
+Write an efficient algorithm for the following assumptions:
+  N is an integer within the range [1...200,000]
+  string S consists only of letters (a-z and/or A-Z)
